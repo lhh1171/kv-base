@@ -1,7 +1,10 @@
 package com.company;
 
+import java.util.List;
+
 public class FileInfo {
-    int size;
-    int lastKey;
-    int avgKey;
+    String Tab_name;
+
+    List<String> cf_names;
+    Long init_time;
 }
