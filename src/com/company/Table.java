@@ -14,7 +14,7 @@ public class Table {
     public void createTab(String cf_name, short type, long min, long max, boolean isUnique, boolean isNull){
         Version version=new Version();
         version.index=tail.index+1;
-        version.memStore=new MemStore(cf_name,type,min,max,isUnique,isNull);
+        version.memStore=new MemStore();
         tail=version;
     }
 }

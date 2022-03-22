@@ -19,7 +19,7 @@ public class BPlusTree<T, V extends Comparable<V>>{
 
     //无参构造方法，默认阶为3
     public BPlusTree(){
-        this(3);
+        this(8);
     }
 
     //有参构造方法，可以设定B+树的阶
